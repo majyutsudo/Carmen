@@ -1,28 +1,39 @@
 # CARMEN / OPERA
 
-**An Instrument for Poetic Composition**  
-Version **2.7.0** · Created by **Majyutsudo**
+*An Instrument for Poetic Composition*
 
-CARMEN / OPERA is a browser-based writing studio for poetry and lyrics, featuring a writing editor, Rhyme Book, Focus Mode, preview, collections, dictionaries and Word Oracle. Five color themes include **Passion**.
+**CARMEN / OPERA** is a browser-based writing studio for poetry and lyrics, created by **Majyutsudo**. Write, revise, and organize your work in a quiet workspace designed for poetic composition.
 
-## Publish with GitHub Pages
+Version **2.7.0**
 
-1. Create a GitHub repository and upload the **contents of this folder** to its root.
-2. In repository **Settings → Pages**, choose **Deploy from a branch**, select **main** and **/(root)**, and save.
-3. Open the HTTPS GitHub Pages URL after deployment. Compatible browsers can offer **Install app** or **Add to Home Screen**.
+## Launch the app
 
-The `index.html` also works as a standalone local HTML file. Service workers require HTTPS (or localhost) and do not work from `file://`.
+Open the published GitHub Pages website for this repository. The public app URL will be added here after deployment.
 
-## Data and offline use
+The app can also run from the included `index.html` file. Installing as a Progressive Web App (PWA) and service-worker-based offline use require HTTPS or localhost.
 
-- Works without an account; writing data and personal dictionaries are stored locally in the browser (localStorage / IndexedDB).
-- After the first successful online visit and service-worker installation, the app shell can load offline. **Offline access is not guaranteed** if browser storage is cleared, caching fails, or the browser evicts stored files.
-- Your writing is **not uploaded to GitHub** by the app. Browser profiles, devices and origins have separate storage.
-- Use the application's export / backup tools regularly. **Moving from a `file://` version to the GitHub Pages URL does not migrate existing local data automatically**: export from the old copy, then import in the hosted copy.
-- Updating the app shell does not intentionally clear user data, but browser storage is not a substitute for a backup.
+## Features
 
-## License
+- Writing editor for poetry and lyrics, with preview and collections
+- **Rhyme Book** and built-in Japanese/English dictionary and rhyme tools
+- **Focus Mode** for distraction-free writing
+- **Word Oracle**, with My Words, Tarot (one or three cards), and I Ching
+- Five visual themes, including **Passion**
+- Local storage and export/import tools for preserving your work
 
-Free to use, including commercial writing. Personal code modifications are permitted; redistribution and sale of the app or modified versions require permission. **This is not an open-source license.** See [LICENSE](LICENSE) and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md).
+## Your work and privacy
 
-© 2026 Majyutsudo.
+CARMEN / OPERA requires no account. Works and personal dictionaries are stored in your browser, not automatically uploaded to GitHub or the app author. Data saved on one device, browser profile, or site origin is not automatically synchronized with another.
+
+**Back up your work regularly** using the app's export features. Clearing browser data, using private browsing, or losing a device can remove locally stored work. When switching from a local `file://` copy to the hosted version, export your data from the old copy and import it into the new one.
+
+After a successful first online load and service worker installation, the app may be available offline on supported browsers. Offline availability depends on the browser retaining the cache.
+
+## License and credits
+
+Free to use for personal or commercial writing. The poems, lyrics, and other works you create remain yours. Personal modifications to the application are permitted; redistribution, publication, or sale of the application or modified copies generally requires permission. This is **not an open-source software license**.
+
+See [LICENSE](LICENSE) for the full terms and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the separate licenses applying to embedded dictionary data. Third-party dictionary licenses are not restricted by the application's proprietary terms.
+
+**Created by Majyutsudo**  
+© 2026 Majyutsudo. All rights reserved, except as otherwise noted for third-party materials.
