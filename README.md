@@ -38,8 +38,12 @@ See [LICENSE](LICENSE) for the full terms and [THIRD_PARTY_NOTICES.md](THIRD_PAR
 **Created by Majyutsudo**  
 © 2026 Majyutsudo. All rights reserved, except as otherwise noted for third-party materials.
 
-## v2.7.1
+## v2.7.2
 
 - Rhyme Finder: English / CMUdict 完全韻検索を追加。日本語検索は従来どおり。
 - `.carmen` の作品・作品集読み込みで Ensemble ブロックとパートの関連を保持するよう修正。
 
+
+
+## v2.7.2
+選択テキストの近くに韻検索ツールを表示。Ensembleの表示スタイル（Ensemble／Parallel／Stacked）を追加。既存データは従来のEnsemble表示を維持します。Parallelは画面幅620px以下で縦1列になります。
