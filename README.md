@@ -48,7 +48,11 @@ See [LICENSE](LICENSE) for the full terms and [THIRD_PARTY_NOTICES.md](THIRD_PAR
 ## v2.7.2
 選択テキストの近くに韻検索ツールを表示。Ensembleの表示スタイル（Ensemble／Parallel／Stacked）を追加。既存データは従来のEnsemble表示を維持します。Parallelは画面幅620px以下で縦1列になります。
 
-## v2.7.3
+## v2.7.4
 
 - Writerで選択した語から韻検索へ移動する際、Rhyme Finderの先頭へスクロールします。
 - 「Writeへ戻る」で元のWriterのスクロール位置を復元します。
+
+
+## v2.7.4 — CARMENへの招待
+「作品集を開く」ダイアログ右上に、読み取り専用の6幕ガイドツアーを追加。各幕のTRY ITから練習用作品を複製してWriterで編集できます。公式ガイドはユーザーのライブラリに追加されません。
