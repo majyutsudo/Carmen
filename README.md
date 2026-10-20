@@ -1,3 +1,7 @@
+## v2.7.9
+
+COLLECTION EDITORでは画面下部の「作品を削除」を非表示にしました。作品の編集画面では引き続き使用できます。既存のデータは変更しません。
+
 # CARMEN / OPERA
 
 *An Instrument for Poetic Composition*
@@ -48,14 +52,14 @@ See [LICENSE](LICENSE) for the full terms and [THIRD_PARTY_NOTICES.md](THIRD_PAR
 ## v2.7.2
 選択テキストの近くに韻検索ツールを表示。Ensembleの表示スタイル（Ensemble／Parallel／Stacked）を追加。既存データは従来のEnsemble表示を維持します。Parallelは画面幅620px以下で縦1列になります。
 
-## v2.7.7
+## v2.7.8
 
 - Writerで選択した語から韻検索へ移動する際、Rhyme Finderの先頭へスクロールします。
 - 「Writeへ戻る」で元のWriterのスクロール位置を復元します。
 
 
-## v2.7.7 — CARMENへの招待
+## v2.7.8 — CARMENへの招待
 「作品集を開く」ダイアログ右上に、読み取り専用の6幕ガイドツアーを追加。各幕のTRY ITから練習用作品を複製してWriterで編集できます。公式ガイドはユーザーのライブラリに追加されません。
 
 
-v2.7.7: 「CARMENへの招待」を通常の作品集構造（章見出し・自由テキスト・作品）による読み物に改訂。練習ファイル作成機能を廃止し、閲覧だけで完結するガイドに変更。
+v2.7.8: 「CARMENへの招待」を通常の作品集構造（章見出し・自由テキスト・作品）による読み物に改訂。練習ファイル作成機能を廃止し、閲覧だけで完結するガイドに変更。
