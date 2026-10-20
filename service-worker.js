@@ -1,5 +1,5 @@
-/* CARMEN / OPERA v2.8.0 — app shell only; never caches user documents. */
-const CACHE = 'carmen-opera-shell-v2.8.0';
+/* CARMEN / OPERA v2.8.1 — app shell only; never caches user documents. */
+const CACHE = 'carmen-opera-shell-v2.8.1';
 const FILES = ['./', './index.html', './manifest.webmanifest', './icons/icon-180.png', './icons/icon-192.png', './icons/icon-256.png', './icons/icon-512.png'];
 self.addEventListener('install', event => {
   event.waitUntil(caches.open(CACHE).then(cache => cache.addAll(FILES)));
