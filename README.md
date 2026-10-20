@@ -47,3 +47,8 @@ See [LICENSE](LICENSE) for the full terms and [THIRD_PARTY_NOTICES.md](THIRD_PAR
 
 ## v2.7.2
 選択テキストの近くに韻検索ツールを表示。Ensembleの表示スタイル（Ensemble／Parallel／Stacked）を追加。既存データは従来のEnsemble表示を維持します。Parallelは画面幅620px以下で縦1列になります。
+
+## v2.7.3
+
+- Writerで選択した語から韻検索へ移動する際、Rhyme Finderの先頭へスクロールします。
+- 「Writeへ戻る」で元のWriterのスクロール位置を復元します。
