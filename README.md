@@ -37,3 +37,9 @@ See [LICENSE](LICENSE) for the full terms and [THIRD_PARTY_NOTICES.md](THIRD_PAR
 
 **Created by Majyutsudo**  
 © 2026 Majyutsudo. All rights reserved, except as otherwise noted for third-party materials.
+
+## v2.7.1
+
+- Rhyme Finder: English / CMUdict 完全韻検索を追加。日本語検索は従来どおり。
+- `.carmen` の作品・作品集読み込みで Ensemble ブロックとパートの関連を保持するよう修正。
+
