@@ -1,4 +1,4 @@
-CARMEN / OPERA v2.8.13
+CARMEN / OPERA v2.8.14
 
 更新: Word Oracleは再入場時に結果をクリアしMy Wordsに戻ります。スマートフォンの入力欄は16px以上の文字サイズに統一し、iOS Safariの自動ズームを抑制します。
 
