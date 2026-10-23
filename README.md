@@ -1,4 +1,4 @@
-CARMEN / OPERA v2.8.34
+CARMEN / OPERA v2.8.35
 
 - iPhone表示検証用: Write / Focusの本文textareaを、スマホ幅でPreviewと同じフォント優先順位に変更。
 - 金星・火星のU+FE0E追加を取り消し、通常のUnicode記号へ戻しました。
