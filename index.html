@@ -1483,7 +1483,7 @@ function oracleRefresh(){
  ensureRhymeSets();
  for(const d of data.rhymeSets){if(d.id==='default')continue;el.add(new Option(d.name,'rhyme-set:'+d.id))}
  const divider=document.createElement('option');divider.disabled=true;divider.textContent='── ORACLE ──';divider.value='oracle-divider';el.append(divider);
- for(const [value,label] of [['tarot-one','Tarot (1 Card)'],['tarot-three','Tarot (3 Cards)'],['iching','I Ching · 六十四卦'],['rune','Runes · 24文字']])el.add(new Option(label,value));
+ for(const [value,label] of [['tarot-one','Tarot (1 Card)'],['tarot-three','Tarot (3 Cards)'],['rune','Runes · 24文字'],['iching','I Ching · 六十四卦']])el.add(new Option(label,value));
  el.value='mywords';
 }
 
