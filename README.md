@@ -1,3 +1,7 @@
+CARMEN / OPERA v2.8.42
+
+- Word Oracle / I Ching: 卦名の読みを独立した行に表示。原典の短い卦名は「第N卦 · 卦名」として表示。卦画、抽選方式、その他の機能は変更なし。
+
 CARMEN / OPERA v2.8.37
 
 - Word Oracle / Runes: 24文字のキーワードを『ルーンリーディング虎の巻』の「キーワード」欄に準拠して更新。抽選方式・表示形式・他のオラクルは変更なし。
@@ -155,3 +159,10 @@ v2.8.32: フロートバーを Write｜Preview｜作品▼（Structure / Charact
 
 
 v2.8.32: iPhone向けにVisual Viewportに合わせて記号キーボード起動ボタンを移動し、起動時は入力位置を保持したまま標準キーボードを閉じる試験的改修。PC版の配置と記号配列は変更なし。
+
+
+## v2.8.42
+Word Oracleのルーン抽選結果はUnicodeルーン文字のみ表示します。ルーン名・読み・キーワードは表示せず、24文字の抽選データは維持します。
+
+
+v2.8.42: Rune oracle displays Unicode rune glyph, romanized name, and Japanese reading; interpretive keywords remain in the internal dataset but are not displayed.
