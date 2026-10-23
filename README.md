@@ -1,3 +1,7 @@
+CARMEN / OPERA v2.8.37
+
+- Word Oracle / Runes: 24文字のキーワードを『ルーンリーディング虎の巻』の「キーワード」欄に準拠して更新。抽選方式・表示形式・他のオラクルは変更なし。
+
 CARMEN / OPERA v2.8.35
 
 - iPhone表示検証用: Write / Focusの本文textareaを、スマホ幅でPreviewと同じフォント優先順位に変更。
