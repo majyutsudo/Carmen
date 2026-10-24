@@ -2,17 +2,17 @@
 
 *An Instrument for Poetic Composition*
 
-CARMEN / OPERAは、詩・歌詞などの言語作品を執筆し、構成し、言葉を探すためのブラウザーベースの制作環境です。文章の編集から、韻や語彙の探索、偶然を利用した着想まで、一つの画面で扱えます。
+CARMEN / OPERAは、言葉の収集・探究・操作をテーマとしたブラウザベースの制作環境です。メモ、詩、小説、歌詞などの一般的な文章制作に加え、台本、脚本、戯曲、オペラのリブレットからグリモワールまで、さまざまなジャンルに対応した編集機能を備えています。
 
-Created by Majyutsudo · Version **2.8.44**
+Created by Majyutsudo · Version 2.8.46
 
 ## 主な機能
 
-- **Writing & Composition** — 作品をブロック単位で執筆・編集。Preview、Focus、章・登場人物・作品集の管理。
-- **Dictionary & Rhyme** — Rhyme Book、Rhyme Finder、Word Harvester、日本語・英語の内蔵辞書。Rhyme Bookの辞書セット管理とCSV入出力。
-- **Word Oracle** — My Words、タロット（1枚／3枚）、古フサルク24文字のルーン、易の六十四卦。
-- **Symbol Keyboard** — ルーン、占星術、各種象徴記号の入力。入力欄がない場合はパネル内に文字列を蓄積し、コピーして他のアプリに貼り付けられます。
-- **作品の保存と管理** — 作品・作品集の `.carmen` 形式での入出力、辞書データのバックアップ。
+- **Writing & Composition** — 作品をブロック単位で執筆・編集。Preview、Focus、構造編集、登場人物登録、書式プリセット。作品集の作成・読み込み。
+- **Dictionary & Rhyme** — 日本語・英語の内蔵辞書。言葉を集めるためのRhyme Book、Word Harvester、韻検索ツールRhyme Finder、Anagram Finder、Palindrome Maker。
+- **Word Oracle** — 偶然性を取り入れた言語によるオラクル機能。
+- **Symbol Keyboard** — Rune、占星術、各種象徴記号の入力。パネル内に文字列を蓄積し、コピーして他のアプリに貼り付けられます。
+- **保存と管理** — 作品・作品集の `.carmen` 形式での入出力、全体データのバックアップ。Rhyme Bookの辞書セット管理とCSV入出力。
 
 ## 使い方
 
