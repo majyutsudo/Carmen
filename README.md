@@ -1,168 +1,36 @@
-CARMEN / OPERA v2.8.42
-
-- Word Oracle / I Ching: 卦名の読みを独立した行に表示。原典の短い卦名は「第N卦 · 卦名」として表示。卦画、抽選方式、その他の機能は変更なし。
-
-CARMEN / OPERA v2.8.37
-
-- Word Oracle / Runes: 24文字のキーワードを『ルーンリーディング虎の巻』の「キーワード」欄に準拠して更新。抽選方式・表示形式・他のオラクルは変更なし。
-
-CARMEN / OPERA v2.8.35
-
-- iPhone表示検証用: Write / Focusの本文textareaを、スマホ幅でPreviewと同じフォント優先順位に変更。
-- 金星・火星のU+FE0E追加を取り消し、通常のUnicode記号へ戻しました。
-- デスクトップ・Preview・記号入力ロジックは変更なし。
-
-CARMEN / OPERA v2.8.33
-
-- ASTROLOGYの金星・火星にテキスト表示指定子 U+FE0E を付与。iPhoneの編集欄での表示改善を試験する小規模変更です。
-- 既存の文字盤配置、入力・削除動作は変更していません。
-
-CARMEN / OPERA v2.8.15-final.1
-
-- 作品集から単一作品への変換時、作品境界の区切り線・タイトル・副題・クレジットを作品集プレビューに合わせて表示。
-- 章見出しの「なし／小／標準／大／特大」の余白をプレビューへ反映。
-- 作品集の作品情報が空欄でも変換可能。
-- v2.8.15の読み込みダイアログは維持。
-
-CARMEN / OPERA v2.8.15
-
-更新: Word Oracleは再入場時に結果をクリアしMy Wordsに戻ります。スマートフォンの入力欄は16px以上の文字サイズに統一し、iOS Safariの自動ズームを抑制します。
-
-## v2.8.9 — CARMEN QUICK GUIDE
-
-メインメニューに「? ヘルプ」を追加。17項目の画面構成図と簡潔な機能説明を備えた全画面のクイックガイドです。スクロールは本文の1領域のみ。閲覧専用でユーザーデータには触れません。
-
-## v2.8.9
-
-COLLECTION EDITORでは画面下部の「作品を削除」を非表示にしました。作品の編集画面では引き続き使用できます。既存のデータは変更しません。
-
 # CARMEN / OPERA
 
 *An Instrument for Poetic Composition*
 
-**CARMEN / OPERA** is a browser-based writing studio for poetry and lyrics, created by **Majyutsudo**. Write, revise, and organize your work in a quiet workspace designed for poetic composition.
+CARMEN / OPERAは、詩・歌詞などの言語作品を執筆し、構成し、言葉を探すためのブラウザーベースの制作環境です。文章の編集から、韻や語彙の探索、偶然を利用した着想まで、一つの画面で扱えます。
 
-Version **2.7.0**
+Created by Majyutsudo · Version **2.8.43**
 
-## Launch the app
+## 主な機能
 
-Open the published GitHub Pages website for this repository. The public app URL will be added here after deployment.
+- **Writing & Composition** — 作品をブロック単位で執筆・編集。Preview、Focus、章・登場人物・作品集の管理。
+- **Dictionary & Rhyme** — Rhyme Book、Rhyme Finder、Word Harvester、日本語・英語の内蔵辞書。Rhyme Bookの辞書セット管理とCSV入出力。
+- **Word Oracle** — My Words、タロット（1枚／3枚）、古フサルク24文字のルーン、易の六十四卦。
+- **Symbol Keyboard** — ルーン、占星術、各種象徴記号の入力。入力欄がない場合はパネル内に文字列を蓄積し、コピーして他のアプリに貼り付けられます。
+- **作品の保存と管理** — 作品・作品集の `.carmen` 形式での入出力、辞書データのバックアップ。
 
-The app can also run from the included `index.html` file. Installing as a Progressive Web App (PWA) and service-worker-based offline use require HTTPS or localhost.
+## 使い方
 
-## Features
+公開されたGitHub Pagesのウェブサイトをブラウザーで開いて使用します。公開URLはデプロイ後に記載します。付属の `index.html` を直接開くこともできますが、PWAやサービスワーカーによるオフライン利用にはHTTPSまたはlocalhostが必要です。
 
-- Writing editor for poetry and lyrics, with preview and collections
-- **Rhyme Book** and built-in Japanese/English dictionary and rhyme tools
-- **Focus Mode** for distraction-free writing
-- **Word Oracle**, with My Words, Tarot (one or three cards), and I Ching
-- Five visual themes, including **Passion**
-- Local storage and export/import tools for preserving your work
+## データの保存とプライバシー
 
-## Your work and privacy
+アカウント登録は不要です。作品や個人辞書は基本的に使用中のブラウザー内に保存され、GitHubや開発者へ自動送信されません。異なる端末・ブラウザー間の自動同期はありません。
 
-CARMEN / OPERA requires no account. Works and personal dictionaries are stored in your browser, not automatically uploaded to GitHub or the app author. Data saved on one device, browser profile, or site origin is not automatically synchronized with another.
+**大切な作品と辞書は定期的に外部ファイルへバックアップしてください。** ブラウザーデータの削除、プライベートブラウズ、端末の故障などによってデータが失われる場合があります。ローカルファイル版から公開サイトへ移行する際も、書き出しと読み込みが必要です。
 
-**Back up your work regularly** using the app's export features. Clearing browser data, using private browsing, or losing a device can remove locally stored work. When switching from a local `file://` copy to the hosted version, export your data from the old copy and import it into the new one.
+対応ブラウザーでは、初回のオンライン読み込み後にオフライン利用できる場合があります。利用可否はキャッシュの保持状況などに依存します。
 
-After a successful first online load and service worker installation, the app may be available offline on supported browsers. Offline availability depends on the browser retaining the cache.
+## 利用条件とクレジット
 
-## License and credits
+個人・商用の執筆に無料で利用できます。制作した詩・歌詞などの著作物の権利は作者に帰属します。アプリ自体はオープンソースとして提供されるものではなく、再配布・公開・販売や改変版の配布には別途許可が必要です。
 
-Free to use for personal or commercial writing. The poems, lyrics, and other works you create remain yours. Personal modifications to the application are permitted; redistribution, publication, or sale of the application or modified copies generally requires permission. This is **not an open-source software license**.
-
-See [LICENSE](LICENSE) for the full terms and [THIRD_PARTY_NOTICES.md](THIRD_PARTY_NOTICES.md) for the separate licenses applying to embedded dictionary data. Third-party dictionary licenses are not restricted by the application's proprietary terms.
+内蔵辞書などの第三者データには個別のライセンスが適用されます。詳細は `THIRD_PARTY_NOTICES.md` を参照してください。
 
 **Created by Majyutsudo**  
 © 2026 Majyutsudo. All rights reserved, except as otherwise noted for third-party materials.
-
-## v2.7.2
-
-- Rhyme Finder: English / CMUdict 完全韻検索を追加。日本語検索は従来どおり。
-- `.carmen` の作品・作品集読み込みで Ensemble ブロックとパートの関連を保持するよう修正。
-
-
-
-## v2.7.2
-選択テキストの近くに韻検索ツールを表示。Ensembleの表示スタイル（Ensemble／Parallel／Stacked）を追加。既存データは従来のEnsemble表示を維持します。Parallelは画面幅620px以下で縦1列になります。
-
-## v2.7.8
-
-- Writerで選択した語から韻検索へ移動する際、Rhyme Finderの先頭へスクロールします。
-- 「Writeへ戻る」で元のWriterのスクロール位置を復元します。
-
-
-## v2.7.8 — CARMENへの招待
-「作品集を開く」ダイアログ右上に、読み取り専用の6幕ガイドツアーを追加。各幕のTRY ITから練習用作品を複製してWriterで編集できます。公式ガイドはユーザーのライブラリに追加されません。
-
-
-v2.7.8: 「CARMENへの招待」を通常の作品集構造（章見出し・自由テキスト・作品）による読み物に改訂。練習ファイル作成機能を廃止し、閲覧だけで完結するガイドに変更。
-
-
-### v2.8.9 小修正
-- LIBRARYに.carmenの共通読み込み口を復帰し、作品・作品集とも読み込み前に確認します。
-- 作品情報・クレジットはPCでも初期状態で折りたたみます。
-- 作品集削除のチェックボックス配置を修正しました。
-- 作品集の「＋下」と「差し替え」で既存作品を検索・選択できます。
-- Rhyme BookとRhyme Finderの検索対象を説明文で明示しました。
-
-
-## v2.8.9 試験機能
-Rhyme Bookに辞書セットを追加。既存語は「マイライムブック」に属し、辞書セットごとに登録、検索、改名、削除、有効切替が可能です。CSVは従来5列に dictionary 列を追加（旧CSVも読み込み可能）。読み込み時に新規セット・既存セット・CSV記載のセットを選べます。DATAからセットごとにCSVを書き出せます。Rhyme Finderでは対象セットを指定できます。JMdictの外部辞書は「内蔵辞書に戻す」で解除できます。公開前の試験版です。
-
-
-## v2.8.17
-作品集を単一作品として読み込む際、最初の収録作品の前にも作品集プレビューと同じ区切り線を追加します。各作品の本文ブロックとその表示設定は変更せず引き継ぎます。
-
-
-## v2.8.32
-スクロール中に Write / Preview / Focus / 辞書（Rhyme Finder）へ移動できるコンパクトな固定ナビゲーションを追加。
-
-
-## v2.8.32
-スクロール中のナビゲーションを「作品／辞書／Preview／Focus」に整理。作品と辞書はドロップダウンで既存の各機能へ移動します。Writeから他の画面へ移動する際は表示中のブロックを記憶し、戻るとそのブロック付近へ復帰します。
-
-
-v2.8.32: フロートバーを Write｜Preview｜作品▼（Structure / Characters / Focus）｜辞書▼ に変更。既存の画面遷移・編集位置復帰は維持。
-
-
-## v2.8.32
-通常の主要メニューの順序を「作品｜辞書｜管理｜作品集」に変更しました。機能・サブメニューは変更していません。
-
-
-### v2.8.32
-- 作品・辞書・管理・作品集で、作品名、作品情報・クレジット、版を保存の共通ヘッダーを表示します。
-- Write専用の案内文はWrite画面だけに表示します。
-- メニューや機能の切り替え処理は変更していません。
-
-
-### v2.8.32
-- 作品のサブメニューから重複した Preview を削除（独立ボタンは維持）。
-- Title/Heading の余白「なし」で直前ブロックの既定の下余白を抑え、作品単体と作品集プレビューの双方に適用。
-- Word Harvester を開く際、スマートフォンでもパネルの先頭を表示するよう移動位置を明示。Write の編集位置復帰は維持。
-
-
-## v2.8.32
-辞書6画面へのナビゲーション時に各画面の見出しを表示するようスクロール位置を統一。Writeのブロック位置復元は維持。
-
-- v2.8.32: Global runic keyboard (Elder Futhark, insert into last selected text field or copy).
-
-
-## v2.8.32
-
-記号キーボードをRUNES / ASTROLOGY / SYMBOLSの3面（各24文字・6列×4段）に拡張。入力位置の記憶、1文字削除、クリア、コピーを維持。
-
-
-### v2.8.32
-- スマートフォンの記号キーボードのみ省スペース化（見出し・説明の省略、余白とキー高さを調整）。PC版と入力・削除の処理は変更なし。
-- iPhoneの標準ソフトウェアキーボードは従来どおり閉じてから記号パネルを開く仕様。
-
-
-v2.8.32: iPhone向けにVisual Viewportに合わせて記号キーボード起動ボタンを移動し、起動時は入力位置を保持したまま標準キーボードを閉じる試験的改修。PC版の配置と記号配列は変更なし。
-
-
-## v2.8.42
-Word Oracleのルーン抽選結果はUnicodeルーン文字のみ表示します。ルーン名・読み・キーワードは表示せず、24文字の抽選データは維持します。
-
-
-v2.8.42: Rune oracle displays Unicode rune glyph, romanized name, and Japanese reading; interpretive keywords remain in the internal dataset but are not displayed.
