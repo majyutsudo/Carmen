@@ -4,7 +4,7 @@
 
 CARMEN / OPERAは、詩・歌詞などの言語作品を執筆し、構成し、言葉を探すためのブラウザーベースの制作環境です。文章の編集から、韻や語彙の探索、偶然を利用した着想まで、一つの画面で扱えます。
 
-Created by Majyutsudo · Version **2.8.43**
+Created by Majyutsudo · Version **2.8.44**
 
 ## 主な機能
 
