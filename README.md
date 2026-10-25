@@ -34,3 +34,6 @@ Created by Majyutsudo · Version 2.8.51
 
 **Created by Majyutsudo**  
 © 2026 Majyutsudo. All rights reserved, except as otherwise noted for third-party materials.
+
+
+v2.8.62: Write表示時に長いJoinブロックのテキストエリア高を再計算する修正。
