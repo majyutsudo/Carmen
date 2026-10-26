@@ -1,6 +1,6 @@
 # Third-party notices / 第三者素材のライセンス
 
-CARMEN / OPERA version 2.7.0 contains lexical and pronunciation data derived from third-party dictionaries. The terms below apply to the **dictionary data**, independently of the Majyutsudo application license. Users may exercise the rights granted by these third-party licenses notwithstanding restrictions on redistribution of the application itself.
+CARMEN / OPERA contains lexical and pronunciation data derived from third-party dictionaries. The terms below apply to the **dictionary data**, independently of the Majyutsudo application license. Users may exercise the rights granted by these third-party licenses notwithstanding restrictions on redistribution of the application itself.
 
 ## 1. Japanese dictionary: JMdict / JMdict Simplified
 
