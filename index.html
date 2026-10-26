@@ -1446,10 +1446,10 @@ function carmenChoose(kind){
  const panel=document.createElement('div');panel.className='dialog library-picker';
  panel.setAttribute('role','dialog');panel.setAttribute('aria-modal','true');
  const title=document.createElement('h2');title.textContent=isWork?'作品を開く':'作品集を開く';
- 
+ let heading=title;
  if(isWork){
   const invitation=document.createElement('button');invitation.type='button';invitation.className='carmen-invitation-trigger';invitation.setAttribute('aria-label','カルメンからの招待状');invitation.innerHTML='<svg viewBox="0 0 48 38" width="30" height="25" aria-hidden="true"><rect x="3" y="7" width="42" height="28" rx="2.5" fill="#ddcfb6" stroke="#ad977a" stroke-width="1.5"/><path d="M4 9 L24 24 L44 9" fill="none" stroke="#a58f77" stroke-width="1.4"/><circle cx="24" cy="24" r="7.5" fill="#922f41" stroke="#632130" stroke-width="1"/><path d="M20 25 C17 20 24 17 27 21 C30 25 24 30 22 25 C21 22 26 21 26 24" fill="none" stroke="#e7a4aa" stroke-width="1.5"/></svg>';
-  const heading=document.createElement('div');heading.className='carmen-invitation-heading';heading.append(title,invitation);
+  heading=document.createElement('div');heading.className='carmen-invitation-heading';heading.append(title,invitation);
   invitation.onclick=()=>openCarmenInvitation();
 }
  const input=document.createElement('input');input.type='search';input.placeholder='タイトルを検索…';input.setAttribute('aria-label','タイトルを検索');
@@ -1457,7 +1457,7 @@ function carmenChoose(kind){
  const actions=document.createElement('div');actions.className='row';
  const close=document.createElement('button');close.textContent='閉じる';close.onclick=()=>host.replaceChildren();
  const create=document.createElement('button');create.textContent=isWork?'＋ 新しい作品':'＋ 新しい作品集';create.onclick=()=>{host.replaceChildren();if(isWork)make();else createCollection();carmenRefreshNavigation();carmenRefreshLibraryCompact()};
- actions.append(close,create);panel.append(isWork?heading:title,input,results,actions);backdrop.append(panel);host.append(backdrop);
+ actions.append(close,create);panel.append(heading,input,results,actions);backdrop.append(panel);host.append(backdrop);
  backdrop.addEventListener('click',e=>{if(e.target===backdrop)host.replaceChildren()});
  function update(){results.replaceChildren();const q=input.value.trim().toLocaleLowerCase();const found=all.filter(x=>(isWork?workDisplayName(x):(x.title||'無題の作品集')).toLocaleLowerCase().includes(q));
  if(!found.length){const empty=document.createElement('p');empty.className='hint';empty.textContent='該当する項目はありません';results.append(empty)}
