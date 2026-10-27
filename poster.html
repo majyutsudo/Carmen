@@ -69,6 +69,22 @@
  .side-no{font-size:11px}
 }
 @media(max-width:390px){.opera-ticket{grid-template-columns:25px minmax(0,1fr) 25px;min-height:172px}.ticket-main{padding:10px 5px}.ticket-mini{font-size:6px}.ticket-lowline{font-size:5px}}
+
+/* Mobile portrait: give the dense ticket its own full-width row.
+   This must follow v7 media rules, which otherwise restore three columns. */
+@media (max-width:480px){
+ .types{display:grid;grid-template-columns:minmax(0,1fr);gap:0;min-height:0;margin:14px 0 18px;width:100%}
+ .types>div:first-child,.types>div:last-child{display:none}
+ .types>.notice-stage{display:flex;min-width:0;width:100%;min-height:0;align-items:center;justify-content:center}
+ .opera-ticket{width:100%;max-width:100%;min-width:0;grid-template-columns:23px minmax(0,1fr) 23px;min-height:165px}
+ .ticket-main{min-width:0;padding:10px 4px 8px}
+ .ticket-title{font-size:clamp(13px,4.6vw,20px)}
+ .ticket-jp{font-size:clamp(20px,6vw,28px)}
+ .ticket-arch{font-size:clamp(5px,1.6vw,7px)}
+ .ticket-subhead{font-size:clamp(5px,1.5vw,7px)}
+ .ticket-info,.ticket-foot{font-size:clamp(4.5px,1.45vw,6px)}
+ .ticket-lowline{font-size:clamp(4px,1.25vw,5.5px)}
+}
 </style></head><body><div class="site"><main class="sheet"><div class="border"><i class="corner tl">❦</i><i class="corner tr">❦</i><i class="corner bl">❦</i><i class="corner br">❦</i></div>
 <div class="serial"><span>MODEL CM-01<br>WRITING &amp; LANGUAGE</span><span>FOR CREATIVE<br>AND PERSONAL USE</span></div>
 <svg class="crest" viewBox="0 0 120 84" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.5"><path d="M60 76C38 70 23 50 28 25 43 23 54 14 60 4c6 10 17 19 32 21 5 25-10 45-32 51Z"/><path d="M60 66C44 62 35 47 37 31c11-3 19-9 23-17 4 8 12 14 23 17 2 16-7 31-23 35Z"/><path d="M17 68C3 44 9 18 29 6M103 68c14-24 8-50-12-62"/><path d="M14 31c-9-5-10-12-9-15m9 25C3 38 0 33 0 29m102 2c9-5 10-12 9-15m-9 25c11-3 14-8 14-12"/></g><text x="60" y="50" fill="currentColor" font-family="Georgia" font-size="31" text-anchor="middle">C</text></svg>
